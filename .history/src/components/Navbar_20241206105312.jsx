@@ -1,24 +1,23 @@
 import React from "react";
-import Logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
     <header className="bg-[#faf7ff] border-b-2 border-black py-4 px-8 flex justify-between items-center font-montserrat">
       {/* Logo */}
-      <div className="flex items-center w-[20.76rem] h-[5.04rem] ">
+      <div className="flex items-center ">
         <img
-          src={Logo}
+          src="/logo-placeholder.png"
           alt="Founder's Friday Logo"
-          className="w-[81px] h-[80.63px] object-cover "
+          className="w-8 h-8"
         />
-        <span className="font-bold text-black text-[1.75rem] ">Founder's Friday</span>
+        <span className="font-bold text-black text-lg">Founder's Friday</span>
       </div>
 
       {/* Navigation Links */}
-      <nav className="hidden md:flex gap-8 font-medium "> 
+      <nav className="hidden md:flex gap-8 font-medium ">
         <a
           href="#home"
-          className="text-[#000000] hover:text-[#8000ff] transition-colors"
+          className="text-black hover:text-[#8000ff] transition-colors"
         >
           Home
         </a>

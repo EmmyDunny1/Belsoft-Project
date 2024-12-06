@@ -9,7 +9,7 @@ const Navbar = () => {
         <img
           src={Logo}
           alt="Founder's Friday Logo"
-          className="w-[81px] h-[80.63px] object-cover "
+          className="w-8 h-8 object-cover"
         />
         <span className="font-bold text-black text-[1.75rem] ">Founder's Friday</span>
       </div>

@@ -1,0 +1,11 @@
+#root {
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+body {
+  max-width: 1080rem;
+  max-height: 585.56rem;
+  background-color: #fdf7ff;
+}

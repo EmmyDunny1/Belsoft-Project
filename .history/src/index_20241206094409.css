@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 108rem;
+  max-height: 585.56rem;
+  background-color: #a50fd6;
+}
